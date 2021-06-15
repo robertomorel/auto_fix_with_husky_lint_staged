@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 yarn eslint --fix &&
-CI=true yarn test --bail --findRelatedTests *.js &&
+CI=true yarn test --bail --findRelatedTests ./src/*.js &&
 git add .
