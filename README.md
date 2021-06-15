@@ -5,6 +5,7 @@ THis is an example project of autofix strategies using [Husky library](https://g
 
 ## Husky
 - Doc [here](https://github.com/typicode/husky)
+
 - Instalation: `yarn add husky -D`
 - Available hooks to use are the same of Git
   - https://git-scm.com/docs/githooks#_hooks
