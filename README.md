@@ -30,6 +30,10 @@ This is an example project of autofix strategies using [Husky library](https://g
 yarn add -D eslint-plugin-react@^7.21.5 eslint-config-airbnb@latest eslint-plugin-import@^2.22.1 eslint-plugin-jsx-a11y@^6.4.1 eslint-plugin-react-hooks@^4 || ^3 || ^2.3.0 || ^1.7.0
 ```
 
+### Other Features
+- [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Commit Lint](https://github.com/conventional-changelog/commitlint)
+
 ## Husky
 - Doc [here](https://github.com/typicode/husky)!
 
@@ -74,3 +78,8 @@ husky add <...>
   ]
 }
 ```
+
+---
+
+## Let´s Talk 🤩
+[LinkedIn](https://www.linkedin.com/in/roberto-morel-6b9065193/)
