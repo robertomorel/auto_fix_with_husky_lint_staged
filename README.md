@@ -44,10 +44,11 @@ yarn add -D eslint-plugin-react@^7.21.5 eslint-config-airbnb@latest eslint-plugi
 - Which files I want to monitore to be avilable to code pattern? 
 ```js
 "lint-staged": {
+  // For all .jx files, run:
   "*.js": [
-    // For all .jx files, run:
-    "eslint --fix",
-    "git add ."
+    "eslint --fix", // Fix do lint
+    "cross-env CI=true yarn test --bail --findRelatedTests", // Modifed files tests with bail (all test must pass)
+    "git add ." // Roda novamente 
   ]
 }
 ```	  
