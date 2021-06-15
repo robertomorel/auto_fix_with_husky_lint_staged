@@ -48,7 +48,7 @@ yarn add -D eslint-plugin-react@^7.21.5 eslint-config-airbnb@latest eslint-plugi
   "*.js": [
     "eslint --fix", // Fix do lint
     "cross-env CI=true yarn test --bail --findRelatedTests", // Modifed files tests with bail (all test must pass)
-    "git add ." // Roda novamente 
+    "git add ."
   ]
 }
-```	  
+```	
